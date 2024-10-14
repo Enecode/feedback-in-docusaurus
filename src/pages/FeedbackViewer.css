@@ -1,0 +1,54 @@
+/* FeedbackViewer.css */
+
+.feedback-viewer {
+    width: 80%;
+    margin: 40px auto;
+  }
+  
+  .feedback-viewer h2 {
+    margin-bottom: 20px;
+  }
+  
+  .feedback-table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-table th, .feedback-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .feedback-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .feedback-table td {
+    vertical-align: top;
+  }
+  
+  .rating-column {
+    text-align: center;
+    width: 10%;
+  }
+  
+  .timestamp-column {
+    width: 20%;
+  }
+  
+  /* Responsive design */
+  
+  @media only screen and (max-width: 768px) {
+    .feedback-viewer {
+      width: 90%;
+      margin: 20px auto;
+    }
+    
+    .feedback-table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }
